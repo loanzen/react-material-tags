@@ -293,7 +293,7 @@ Tags.propTypes = {
   containerStyle: React.PropTypes.object, //style for container
   onRemove: React.PropTypes.func, //remove, delete tag callback function(removedTag,allTags)
   onAdd: React.PropTypes.func, //add callback  function(addedTag,allTags)
-  button: React.PropTypes.object //button props - it has child prop inside
+  button: React.PropTypes.object, //button props - it has child prop inside
   handleInputChange: React.PropTypes.func
 
 };
